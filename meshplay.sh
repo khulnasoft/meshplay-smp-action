@@ -35,7 +35,7 @@ main() {
 	kubectl config view --minify --flatten > ~/minified_config
 	mv ~/minified_config ~/.kube/config
 
-  	curl -L https://meshplay.io/install | sudo PLATFORM=$PLATFORM bash - &
+  	curl -L https://meshplay.khulnasoft.com/install | sudo PLATFORM=$PLATFORM bash - &
 
 	sleep 60
 }

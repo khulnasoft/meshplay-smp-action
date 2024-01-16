@@ -13,7 +13,7 @@ if ! [ -x "$(command -v meshplayctl)" ]; then
     kubectl config view --minify --flatten > ~/minified_config
 	mv ~/minified_config ~/.kube/config
     echo 'meshplayctl is not installed. Installing meshplayctl client... Standby... (Starting Meshplay as well...)' >&2
-    curl -L https://meshplay.io/install  | ADAPTERS=osm PLATFORM=kubernetes bash -
+    curl -L https://meshplay.khulnasoft.com/install  | ADAPTERS=osm PLATFORM=kubernetes bash -
 fi
 
 curl -fsL https://raw.githubusercontent.com/openservicemesh/osm-docs/main/manifests/apps/bookstore.yaml --output bookstore.yaml

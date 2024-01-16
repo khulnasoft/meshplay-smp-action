@@ -4,7 +4,7 @@ author: "Layer5"
 
 inputs:
   # token to authenticate with Meshplay
-  # see: https://docs.meshplay.io/guides/performance-management#running-performance-benchmarks-in-your-pipelines
+  # see: https://docs.meshplay.khulnasoft.com/guides/performance-management#running-performance-benchmarks-in-your-pipelines
   provider_token:
     description: "Provider token to use. NOTE: value of the 'token' key in auth.json"
     required: true
@@ -18,14 +18,14 @@ inputs:
   # provide either a test configuration file or a performance profile name
 
   # name of the test configuration file written in SMP compatible format
-  # see: https://docs.meshplay.io/guides/performance-management#running-performance-benchmarks-through-meshplayctl
+  # see: https://docs.meshplay.khulnasoft.com/guides/performance-management#running-performance-benchmarks-through-meshplayctl
   # store this file in the .github folder in your repository
   profile_filename:
     description: "Name of the test configuration file"
     required: false
 
   # name of the performance profile to use to run tests
-  # see: https://docs.meshplay.io/functionality/performance-management#performance-profiles
+  # see: https://docs.meshplay.khulnasoft.com/functionality/performance-management#performance-profiles
   profile_name:
     description: "Name of the performance profile"
     required: false

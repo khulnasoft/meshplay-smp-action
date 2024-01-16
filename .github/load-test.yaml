@@ -1,5 +1,5 @@
 # Test configuration file for running performance benchmarks
-# See: https://docs.meshplay.io/guides/performance-management#running-performance-benchmarks-through-meshplayctl
+# See: https://docs.meshplay.khulnasoft.com/guides/performance-management#running-performance-benchmarks-through-meshplayctl
 test:
   smp_version: v0.0.1
   
